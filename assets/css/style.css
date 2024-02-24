@@ -20,6 +20,21 @@
     padding-bottom: 1rem;
 }
 
+/* Typwriter effect */
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 /* Center the content */
 .container {
     width: 100vw;
