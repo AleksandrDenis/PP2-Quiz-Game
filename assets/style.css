@@ -1,4 +1,9 @@
 /* This is stylesheets for the menu page */
+/* 1rem will be equal to 10px */
+:root {
+    font-size: 62.5%;
+    background-color: rgba(194, 224,233, 0322);
+}
 /* Remove the default proprties */
 * {
     box-sizing: border-box;
