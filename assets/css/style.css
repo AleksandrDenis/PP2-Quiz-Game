@@ -13,6 +13,13 @@
     padding: 0;
 }
 
+/* Hedings */
+.heading {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: 1rem;
+}
+
 /* Center the content */
 .container {
     width: 100vw;
@@ -55,5 +62,14 @@
     outline: none;
     background-color: rgb(135, 207, 235, 0.63);
 }
+
+/* Center menu  */
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
