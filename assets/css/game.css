@@ -1,5 +1,5 @@
 /* Headings */
-.heading {
+.headings {
     text-align: center;
 }
 
@@ -39,6 +39,20 @@
 
 /* Question area */
 /* Question img */
+#question-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+#question-image img {
+    width: 10rem;
+    height: 5rem;
+    border: 0.1rem solid rgb(70, 68, 68);
+    border-radius: 0.5rem;
+}
+
 
 /* Answers choices*/
 
