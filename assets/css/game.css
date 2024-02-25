@@ -1,11 +1,37 @@
 /* Headings */
+.heading {
+    text-align: center;
+}
 
 /* Score area */
+#score-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.score {
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    }
 
 /* Timer area */
+#timer {
+    padding: 1rem 0 1rem 0;    
+}
+
+#timer-bar {
+    width: 25.5rem;
+    height: 1rem;
+    background: linear-gradient(to right, red, yellow, green);
+    border-radius: 0.5rem;
+    margin-top: -1rem;
+}
 
 /* Question area */
-
 /* Question img */
 
 /* Answers choices*/
