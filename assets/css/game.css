@@ -53,7 +53,16 @@
     border-radius: 0.5rem;
 }
 
-
 /* Answers choices*/
+#answers-choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Next button */
+#next-btn {
+    width: 10rem;
+    height: 5rem;    
+}

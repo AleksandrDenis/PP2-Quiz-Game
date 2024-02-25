@@ -62,6 +62,7 @@
 /* Change the color of the button when hovered */
 .btn:hover {
     background-color: rgb(135, 207, 235, 0.63);
+    cursor: pointer;
    
 }
 
