@@ -13,6 +13,16 @@
     padding: 0;
 }
 
+/* Background image */
+body {
+    background-image: url(../images/game-bg.png);
+    background-size: 160% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
 /* Hedings */
 .heading {
     font-size: 2rem;
