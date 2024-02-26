@@ -3,11 +3,17 @@
     text-align: center;
 }
 .general {
-    padding-bottom: 2.2rem;
+    padding-bottom: 2.5rem;
     text-transform: uppercase;
     color: white;
     text-shadow: 1px 1px 2px black;
     letter-spacing: 0.2rem;
+}
+
+/* Quiz area */
+#quiz-area {
+    padding-top: 2rem;
+    padding-right: 1rem;
 }
 
 /* Score area */
@@ -69,6 +75,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.choice {
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+
+
 
 /* Next button */
 #next-btn {
