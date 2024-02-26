@@ -47,9 +47,10 @@
 }
 
 #question-image img {
-    width: 10rem;
-    height: 5rem;
+    width: 15rem;
+    height: 10rem;
     border: 0.1rem solid rgb(70, 68, 68);
+    box-shadow: 0.2rem 0.2rem;
     border-radius: 0.5rem;
 }
 
