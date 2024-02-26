@@ -10,6 +10,11 @@
     letter-spacing: 0.2rem;
 }
 
+/* Hide message for smalldevices */
+#hide {
+    display: none;
+}
+
 /* Quiz area */
 #quiz-area {
     padding-top: 2rem;
@@ -89,4 +94,20 @@
 #next-btn {
     width: 10rem;
     height: 5rem;    
+}
+
+/* Media queries */
+/* For landscape (horizontal) orientation: */
+@media only screen and (min-width: 480px), (orientation: landscape) { 
+    #quiz-area {
+        display: none;
+    }
+    #hide {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+        color: rgb(70, 68, 68);
+        text-transform: uppercase;
+    }
+
 }
