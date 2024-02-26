@@ -6,7 +6,7 @@
     padding-bottom: 2.2rem;
     text-transform: uppercase;
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 10px black;
+    text-shadow: 1px 1px 2px black;
     letter-spacing: 0.2rem;
 }
 
@@ -16,7 +16,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    
 }
 
 .score {
