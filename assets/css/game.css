@@ -18,7 +18,7 @@
 /* Quiz area */
 #quiz-area {
     padding-top: 2rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
 }
 
 /* Score area */
@@ -85,6 +85,17 @@
 .choice {
     height: 3rem;
     padding: 0.5rem;
+}
+
+#correct {
+    color: green;
+}
+
+#wrong {
+    color: red;
+}
+.score {
+    font-size: 1.2rem;
 }
 
 
