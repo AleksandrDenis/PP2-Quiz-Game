@@ -42,7 +42,7 @@
 }
 
 #timer-bar {
-    width: 25.5rem;
+    width: 20rem;
     height: 1rem;    
     border: 0.1rem solid rgb(70, 68, 68);
     border-radius: 0.5rem;
@@ -94,9 +94,7 @@
 #wrong {
     color: red;
 }
-.score {
-    font-size: 1.2rem;
-}
+
 
 
 

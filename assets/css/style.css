@@ -16,7 +16,7 @@
 /* Background image */
 body {
     background-image: url(../images/game-bg.png);
-    background-size: 100vh 100vw;
+    background-size: 160% 100%;
     background-position: center;
     background-repeat: no-repeat;   
 }
