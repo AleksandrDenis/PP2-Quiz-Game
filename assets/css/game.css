@@ -97,8 +97,8 @@
 }
 
 /* Media queries */
-/* For landscape (horizontal) orientation: */
-@media only screen and (min-width: 480px), (orientation: landscape) { 
+/* For landscape (horizontal) orientation: 
+@media only screen and (min-width: 380px), (orientation: landscape) { 
     #quiz-area {
         display: none;
     }
@@ -110,4 +110,4 @@
         text-transform: uppercase;
     }
 
-}
+}*/
