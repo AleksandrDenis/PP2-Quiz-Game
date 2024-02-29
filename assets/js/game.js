@@ -142,15 +142,26 @@ const questions = [
         answer: "Football",
     },
     {
-        text: "Who won gold in the 200m at the Beijing, London, and Rio Olympics?",
+        text: "Who won gold in the 200m at the Rio Olympics?",
         image: "assets/images/sports.png",
         choices: ["Usain Bolt", "Carl Lewis", "Michael Johnson"],
         answer: "Usain Bolt",
     },
 ]; 
 
-// Function to display questions
+/** Function to display questions
+ * Get current question from questions array
+ * Set the question text and image
+ * Set the answer choices
+ */
 function displayQuestions() {
+    let currentQuestion = 0; // The index of the current question
+    let q =questions[currentQuestion];
+    question.textContent = q.text;
+    questionImage.querySelector("img").src = q.image;
+    choiceA.querySelector("p").textContent = q.choices[0];
+    choiceB.querySelector("p").textContent = q.choices[1];
+    choiceC.querySelector("p").textContent = q.choices[2];
 
 }
 
