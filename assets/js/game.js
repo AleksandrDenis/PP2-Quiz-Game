@@ -71,10 +71,10 @@ const questions = [
         answer: "George Washington",
     },
     {
-        text: "What event marked the beginning of World War I?",
+        text: "Which ancient Egyptian king established a cult to Aton, a sun god?",
         image: "assets/images/history.png",
-        choices: ["The assassination of Archduke Franz Ferdinand", "The sinking of the Titanic", "The signing of the Treaty of Versailles"],
-        answer: "The assassination of Archduke Franz Ferdinand",
+        choices: ["Akhenaten", "Ramses II", "Hatshepsut"],
+        answer: "Akhenaten",
     },
     {
         text: "Who is the author of Harry Potter?",
