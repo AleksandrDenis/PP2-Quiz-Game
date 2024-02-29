@@ -77,10 +77,10 @@ const questions = [
         answer: "The assassination of Archduke Franz Ferdinand",
     },
     {
-        text: "",
+        text: "Who is the author of Harry Potter?",
         image: "assets/images/literature.png",
-        choices: ["", "", ""],
-        answer: "",
+        choices: ["J.R.R. Tolkien", "George R.R. Martin", "J.K. Rowling"],
+        answer: "J.K. Rowling",
     },
     {
         text: "Who wrote the novel 1984, a dystopian classic?",
