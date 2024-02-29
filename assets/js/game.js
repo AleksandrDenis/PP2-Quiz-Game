@@ -13,6 +13,7 @@ const choiceC = document.getElementById('C');
 
 // Variables
 
+
 /** Questions array
  * Each question is an object with the following properties:
  * text: the question
@@ -155,7 +156,8 @@ const questions = [
  * Set the answer choices
  */
 function displayQuestions() {
-    let currentQuestion = 0; // The index of the current question
+   // let currentQuestion = 0;  The index of the current question
+    let currentQuestion = Math.floor(Math.random() * questions.length); // Get a random question
     let q =questions[currentQuestion];
     question.textContent = q.text;
     questionImage.querySelector("img").src = q.image;
@@ -164,6 +166,7 @@ function displayQuestions() {
     choiceC.querySelector("p").textContent = q.choices[2];
 
 }
+displayQuestions();// Call the function to display the questions
 
 // Function to decrement timer
 function decrementTimer() {
