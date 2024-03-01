@@ -161,6 +161,7 @@ const questions = [
  *  Select a random question from questions array
  * Set the question text and image
  * Set the answer choices
+ * Reset the timer width and start the timer
  */
 function displayQuestion() {
     let q = questions[currentQuestion = Math.floor(Math.random() * questions.length)];
@@ -169,6 +170,8 @@ function displayQuestion() {
     choiceA.querySelector("p").textContent = q.choices[0];
     choiceB.querySelector("p").textContent = q.choices[1];
     choiceC.querySelector("p").textContent = q.choices[2];
+    timerWidth = 100;
+    timerId = setInterval(decrementTimer, 100);
 
 }
 
@@ -178,8 +181,17 @@ function displayQuestion() {
  * Set the timer progress width
  * Check if the timer is 0
  * Stop the timer
+ * Mark wrong answer
+ * Go to next question
  */
 function decrementTimer() {
+    timerWidth -= timerSpeed;
+    timerProgress.style.width = timerWidth + "%";
+    if (timerWidth <= 0) {
+        clearInterval(timerId);
+        markWrong();
+        nextQuestion();
+    }
 
 }
 
