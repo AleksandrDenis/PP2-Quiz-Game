@@ -12,6 +12,9 @@ const choiceB = document.getElementById('B');
 const choiceC = document.getElementById('C');
 
 // Variables
+let progress = 0; // The number of questions answered
+let correct = 0; // The number of correct answers
+let wrong = 0; // The number of wrong answers
 
 
 /** Questions array
@@ -169,7 +172,12 @@ function displayQuestions() {
 }
 displayQuestions();// Call the function to display the questions
 
-// Function to decrement timer
+/** Function to decrement timer
+ * Reduce the timer width by the timer speed
+ * Set the timer progress width
+ * Check if the timer is 0
+ * Stop the timer
+ */
 function decrementTimer() {
 
 }
