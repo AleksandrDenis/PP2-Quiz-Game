@@ -231,3 +231,13 @@ function endGame() {
 
 }
 
+// Event listeners for answer choices
+choiceA.addEventListener('click', function () {
+    checkAnswers(choiceA.querySelector("p").textContent);
+});
+choiceB.addEventListener('click', function () {
+    checkAnswers(choiceB.querySelector("p").textContent);
+});
+choiceC.addEventListener('click', function () {
+    checkAnswers(choiceC.querySelector("p").textContent);
+});
