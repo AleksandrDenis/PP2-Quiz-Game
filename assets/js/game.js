@@ -16,6 +16,9 @@ let progress = 0; // The number of questions answered
 let correct = 0; // The number of correct answers
 let wrong = 0; // The number of wrong answers
 let currentQuestion = 0; // The index of the current question
+let timerWidth = 100; // The width of the timer bar
+let timerSpeed = 1; // The speed of the timer bar
+let timerId; // The timer interval ID
 
 /** Questions array
  * Each question is an object with the following properties:
