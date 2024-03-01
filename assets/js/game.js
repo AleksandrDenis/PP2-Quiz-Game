@@ -160,9 +160,7 @@ const questions = [
  * Set the answer choices
  */
 function displayQuestion() {
-    
-    let currentQuestion = Math.floor(Math.random() * questions.length); // Get a random question
-    let q = questions[currentQuestion];
+    let q = questions[currentQuestion = Math.floor(Math.random() * questions.length)];
     question.textContent = q.text;
     questionImage.querySelector("img").src = q.image;
     choiceA.querySelector("p").textContent = q.choices[0];
