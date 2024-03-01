@@ -151,6 +151,7 @@ const questions = [
 ]; 
 
 /** Function to display questions
+ * Select a random question from questions array
  * Get current question from questions array
  * Set the question text and image
  * Set the answer choices
@@ -173,27 +174,43 @@ function decrementTimer() {
 
 }
 
-// Function to check answers
+/** Function to check answers
+ * Get the current question from questions array
+ * Check if the choice is correct answer
+ * Mark correct or incorrect
+ */
 function checkAnswers() {
 
 }
 
-// Function to mark correct answer
+/** Function to mark correct answer
+ * 
+ * 
+ */
 function markCorrect() {
 
 }
 
-// Function to mark incorrect answer
+/** Function to mark incorrect answer
+ * 
+ * 
+ */
 function markIncorrect() {
 
 }
 
-// Function to go to next question
+/** Function to go to next question
+ * 
+ * 
+ */
 function nextQuestion() {
 
 }
 
-// Function to end game
+/** Function to end game
+ * 
+ * 
+ */
 function endGame() {
 
 }
