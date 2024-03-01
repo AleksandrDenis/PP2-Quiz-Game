@@ -185,9 +185,15 @@ function decrementTimer() {
 /** Function to check answers
  * Get the current question from questions array
  * Check if the choice is correct answer
- * Mark correct or incorrect
+ * Mark correct or wrong
  */
-function checkAnswers() {
+function checkAnswers(choice) {
+    let q = questions[currentQuestion];
+    if (choice === q.answer) {
+        markCorrect();
+    } else {
+        markWrong();
+    };
 
 }
 
