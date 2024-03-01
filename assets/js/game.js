@@ -192,19 +192,21 @@ function checkAnswers() {
 }
 
 /** Function to mark correct answer
- * 
- * 
+ * Increase the correct score
+ * Update the correct element
  */
 function markCorrect() {
-
+    correct++;
+    document.getElementById('correct').textContent = correct;
 }
 
-/** Function to mark incorrect answer
- * 
- * 
+/** Function to mark wrong answer
+ * Increase the wrong score
+ * Update the wrong element
  */
-function markIncorrect() {
-
+function markWrong() {
+    wrong++;
+    document.getElementById('wrong').textContent = wrong;
 }
 
 /** Function to go to next question
