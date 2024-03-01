@@ -15,7 +15,7 @@ const choiceC = document.getElementById('C');
 let progress = 0; // The number of questions answered
 let correct = 0; // The number of correct answers
 let wrong = 0; // The number of wrong answers
-
+let currentQuestion = 0; // The index of the current question
 
 /** Questions array
  * Each question is an object with the following properties:
@@ -159,10 +159,10 @@ const questions = [
  * Set the question text and image
  * Set the answer choices
  */
-function displayQuestions() {
-   // let currentQuestion = 0;  The index of the current question
+function displayQuestion() {
+    
     let currentQuestion = Math.floor(Math.random() * questions.length); // Get a random question
-    let q =questions[currentQuestion];
+    let q = questions[currentQuestion];
     question.textContent = q.text;
     questionImage.querySelector("img").src = q.image;
     choiceA.querySelector("p").textContent = q.choices[0];
@@ -170,7 +170,7 @@ function displayQuestions() {
     choiceC.querySelector("p").textContent = q.choices[2];
 
 }
-displayQuestions();// Call the function to display the questions
+
 
 /** Function to decrement timer
  * Reduce the timer width by the timer speed
@@ -187,7 +187,7 @@ function decrementTimer() {
  * Check if the choice is correct answer
  * Mark correct or wrong
  */
-function checkAnswers(choice) {
+function checkAnswer(choice) {
     let q = questions[currentQuestion];
     if (choice === q.answer) {
         markCorrect();
@@ -202,8 +202,9 @@ function checkAnswers(choice) {
  * Update the correct element
  */
 function markCorrect() {
+    
     correct++;
-    document.getElementById('correct').textContent = correct;
+    document.getElementById("correct").textContent = correct;
 }
 
 /** Function to mark wrong answer
@@ -211,8 +212,9 @@ function markCorrect() {
  * Update the wrong element
  */
 function markWrong() {
+    
     wrong++;
-    document.getElementById('wrong').textContent = wrong;
+    document.getElementById("wrong").textContent = wrong;
 }
 
 /** Function to go to next question
@@ -232,12 +234,15 @@ function endGame() {
 }
 
 // Event listeners for answer choices
-choiceA.addEventListener('click', function () {
-    checkAnswers(choiceA.querySelector("p").textContent);
+choiceA.addEventListener("click", function () {
+    checkAnswer(choiceA.querySelector("p").textContent);
 });
-choiceB.addEventListener('click', function () {
-    checkAnswers(choiceB.querySelector("p").textContent);
+choiceB.addEventListener("click", function () {
+    checkAnswer(choiceB.querySelector("p").textContent);
 });
-choiceC.addEventListener('click', function () {
-    checkAnswers(choiceC.querySelector("p").textContent);
+choiceC.addEventListener("click", function () {
+    checkAnswer(choiceC.querySelector("p").textContent);
 });
+
+// Call the function to display the first questions
+displayQuestion();
