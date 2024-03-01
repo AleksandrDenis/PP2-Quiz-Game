@@ -24,19 +24,19 @@ const choiceC = document.getElementById('C');
 const questions = [
     {
         text: "Who painted the famous artwork The Starry Night?",
-        image: "/assets/images/arts.png",
+        image: "assets/images/arts.png",
         choices: ["Vincent van Gogh", "Pablo Picasso", "Salvador Dalí"],
         answer: "Vincent van Gogh",
     },
     {
         text: "Who sculpted the famous statue “David”? ",
-        image: "/assets/images/arts.png",
+        image: "assets/images/arts.png",
         choices: ["Michelangelo", "Leonardo da Vinci", "Donatello"],
         answer: "Michelangelo",
     },
     {
         text: "Who known for painding the Sistine Chapel?",
-        image: "/assets/images/arts.png",
+        image: "assets/images/arts.png",
         choices: ["Leonardo da Vinci", "Michelangelo", "Raphael"],
         answer: "Michelangelo",
     },
