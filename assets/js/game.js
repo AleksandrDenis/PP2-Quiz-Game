@@ -154,8 +154,8 @@ const questions = [
 ]; 
 
 /** Function to display questions
- * Select a random question from questions array
  * Get current question from questions array
+ *  Select a random question from questions array
  * Set the question text and image
  * Set the answer choices
  */
@@ -184,6 +184,7 @@ function decrementTimer() {
  * Get the current question from questions array
  * Check if the choice is correct answer
  * Mark correct or wrong
+ * Go to next question
  */
 function checkAnswer(choice) {
     let q = questions[currentQuestion];
@@ -191,7 +192,8 @@ function checkAnswer(choice) {
         markCorrect();
     } else {
         markWrong();
-    };
+    }
+    nextQuestion();
 
 }
 
@@ -199,8 +201,7 @@ function checkAnswer(choice) {
  * Increase the correct score
  * Update the correct element
  */
-function markCorrect() {
-    
+function markCorrect() {   
     correct++;
     document.getElementById("correct").textContent = correct;
 }
@@ -209,17 +210,24 @@ function markCorrect() {
  * Increase the wrong score
  * Update the wrong element
  */
-function markWrong() {
-    
+function markWrong() {    
     wrong++;
     document.getElementById("wrong").textContent = wrong;
 }
 
 /** Function to go to next question
- * 
- * 
+ * Increment the progress and cur
+ * Update the progress element
+ * Checck if more questions left
+ * Display the next question
  */
 function nextQuestion() {
+    currentQuestion++;
+    progress++;
+    document.getElementById("progress").textContent = progress;
+    if (currentQuestion < questions.length) {
+        displayQuestion();
+    }
 
 }
 
