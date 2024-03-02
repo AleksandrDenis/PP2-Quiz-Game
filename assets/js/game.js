@@ -261,6 +261,7 @@ function nextQuestion() {
 /** Function to end game
  * Hide the quiz area and display the score area
  * Display message based on the score 
+ * Add bplay again button
  */
 function endGame() {
     timer.style.display = "none";
@@ -268,7 +269,6 @@ function endGame() {
     timerProgress.style.display = "none";
     question.style.display = "none";
     answersChoices.style.display = "none";
-
    scoreArea.style.display = "block";
     scoreArea.style.textAlign = "center";
     scoreArea.style.margin = "2rem";
@@ -286,7 +286,16 @@ function endGame() {
     } else {
        message.textContent = "You can do better!";
     }
-    scoreArea.appendChild(message);
+    quizArea.appendChild(message);
+    
+    let playAgain = document.createElement("button");
+    playAgain.textContent = "Play Again";
+    playAgain.classList.add("btn");
+    playAgain.style.margin = "0 6rem";
+    playAgain.addEventListener("click", function () {
+        window.location.href = "index.html";
+    });
+    quizArea.appendChild(playAgain);
 
 }
 
