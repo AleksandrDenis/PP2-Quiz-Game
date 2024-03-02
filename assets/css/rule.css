@@ -1,0 +1,14 @@
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+
+}
+.category img {
+    width: 5rem;
+    height: 2.5rem;
+    border: 0.1rem solid rgb(70, 68, 68);
+    box-shadow: 0.2rem 0.2rem;
+    border-radius: 0.5rem;
+}
