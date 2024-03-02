@@ -156,15 +156,22 @@ const questions = [
     },
 ]; 
 
+//  Shuffle the questions array using Fisher-Yates algorithm
+for (let i = questions.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * i);
+    let temp = questions[i];
+    questions[i] = questions[j];
+    questions[j] = temp;
+};
+
 /** Function to display questions
  * Get current question from questions array
- *  Select a random question from questions array
- * Set the question text and image
+  * Set the question text and image
  * Set the answer choices
  * Reset the timer width and start the timer
  */
 function displayQuestion() {
-    let q = questions[currentQuestion = Math.floor(Math.random() * questions.length)];
+    let q = questions[currentQuestion];
     question.textContent = q.text;
     questionImage.querySelector("img").src = q.image;
     choiceA.querySelector("p").textContent = q.choices[0];
