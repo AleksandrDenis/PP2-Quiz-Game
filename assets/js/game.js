@@ -237,6 +237,7 @@ function markWrong() {
  * Update the progress element
  * Checck if more questions left
  * Display the next question
+ * End the game if no more questions
  */
 function nextQuestion() {
     currentQuestion++;
@@ -244,15 +245,28 @@ function nextQuestion() {
     document.getElementById("progress").textContent = progress;
     if (currentQuestion < questions.length) {
         displayQuestion();
+    } else {
+        endGame();
     }
 
 }
 
 /** Function to end game
- * 
- * 
+ * Hide the quiz area and display the score area
+ * Display message based on the score 
  */
 function endGame() {
+   // quizArea.style.display = "none";
+    scoreArea.style.display = "block";
+    let message = document.createElement("h2");
+    message.classList.add("headings");
+    if (correct === questions.length) {
+       message.textContent = "Congratulations! You are a genius!";
+    } else if (correct > wrong){
+        message.textContent = "Good job! You are smart!";
+    } else {
+       message.textContent = "You can do better!";
+    }
 
 }
 
