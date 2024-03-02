@@ -267,6 +267,7 @@ function endGame() {
     } else {
        message.textContent = "You can do better!";
     }
+    scoreArea.appendChild(message);
 
 }
 
