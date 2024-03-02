@@ -263,10 +263,22 @@ function nextQuestion() {
  * Display message based on the score 
  */
 function endGame() {
-   // quizArea.style.display = "none";
-    scoreArea.style.display = "block";
+    timer.style.display = "none";
+    timerBar.style.display = "none";
+    timerProgress.style.display = "none";
+    question.style.display = "none";
+    answersChoices.style.display = "none";
+
+   scoreArea.style.display = "block";
+    scoreArea.style.textAlign = "center";
+    scoreArea.style.margin = "2rem";
+    scoreArea.style.fontSize = "2rem";
     let message = document.createElement("h2");
     message.classList.add("headings");
+    message.style.textAlign = "center";
+    message.style.margin = "2rem";
+    message.style.fontSize = "2rem";
+    message.display = "block";
     if (correct === questions.length) {
        message.textContent = "Congratulations! You are a genius!";
     } else if (correct > wrong){
