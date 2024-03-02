@@ -199,6 +199,7 @@ function decrementTimer() {
  * Get the current question from questions array
  * Check if the choice is correct answer
  * Mark correct or wrong
+ * Stop the timer
  * Go to next question
  */
 function checkAnswer(choice) {
@@ -208,6 +209,7 @@ function checkAnswer(choice) {
     } else {
         markWrong();
     }
+    clearInterval(timerId);
     nextQuestion();
 
 }
