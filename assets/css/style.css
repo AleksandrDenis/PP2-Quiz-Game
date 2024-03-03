@@ -96,5 +96,9 @@ body {
     align-items: center;
 }
 
+/* Media queries for larger screens */
+body {
+    background-size: 100% 100%;
+}
 
 

@@ -61,18 +61,24 @@ ul li {
 @media (min-width: 768px) {
     body {
         font-size: 2rem;
+        background-image: url(../images/game-bg.png);
+        background-size: 100% 100%;
     }
     img {
-        width: 10rem;
-        height: 10rem;
+        width: 7rem;
+        height: 7rem;
     }
-    .categories {
-        font-size: 2rem;
-    }
-    .rules-list {
-        font-size: 2rem;
+    .rules {
+        padding: 4rem;
+        font-size: 1.5rem;
     }
     h2.heading {
-        font-size: 4rem;
+        font-size: 3rem;
+        
+      
+    }
+    a.btn {
+        background-color: #fff;
+      
     }
 }
