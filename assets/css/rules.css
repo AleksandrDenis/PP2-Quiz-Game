@@ -57,3 +57,22 @@ ul li {
     text-align: center;
 }
 
+/*Meedia queries for larger screens */
+@media (min-width: 768px) {
+    body {
+        font-size: 2rem;
+    }
+    img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .categories {
+        font-size: 2rem;
+    }
+    .rules-list {
+        font-size: 2rem;
+    }
+    h2.heading {
+        font-size: 4rem;
+    }
+}
