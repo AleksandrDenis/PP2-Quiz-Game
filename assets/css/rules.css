@@ -58,7 +58,7 @@ ul li {
 }
 
 /*Meedia queries for larger screens */
-@media (width: 768px) {
+@media (min-width: 768px) {
     body {
         font-size: 2rem;
         background-image: url(../images/game-bg.png);
