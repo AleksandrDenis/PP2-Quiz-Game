@@ -16,3 +16,38 @@ body {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 1.2rem;
 }
+
+/* Style categories images */
+img {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.2rem solid #000;
+    background-color: #fff;
+}
+
+/*Styles for list of rules */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.rules-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+ul li {
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
