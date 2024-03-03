@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     background-image: none;
+    font-size: 1.5rem;
 }
 
 /* Center section on page */
@@ -14,7 +15,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1rem 2rem 1rem 2rem;
-    font-size: 1.2rem;
 }
 
 /* Style categories images */
@@ -51,3 +51,9 @@ ul li {
     margin: 0.2rem;
     padding: 0.2rem;
 }
+
+/* Styles for the text */
+.text {
+    text-align: center;
+}
+
