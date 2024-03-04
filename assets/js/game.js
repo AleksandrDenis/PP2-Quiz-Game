@@ -29,7 +29,7 @@ let timerId; // The timer interval ID
  */
 const questions = [
     {
-        text: "Who painted artwork The Starry Night?",
+        text: "Who painted The Starry Night?",
         image: "assets/images/arts.png",
         choices: ["Vincent van Gogh", "Pablo Picasso", "Salvador Dalí"],
         answer: "Vincent van Gogh",
