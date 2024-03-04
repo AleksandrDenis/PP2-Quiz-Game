@@ -1,3 +1,7 @@
+/*liner gradient for background*/
+body {
+    background: linear-gradient(to right, rgba(0, 238, 255, 0), rgb(0, 162, 255));;
+}
 /* Headings */
 .headings {
     text-align: center;
@@ -103,6 +107,14 @@
 #next-btn {
     width: 10rem;
     height: 5rem;    
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+    body {
+        background-image: url(../images/game-bg.png);
+        background-size: 100% 100%;
+    }
 }
 
 /* Media queries */
