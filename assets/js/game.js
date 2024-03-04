@@ -47,7 +47,7 @@ const questions = [
         answer: "Michelangelo",
     },
     {
-        text: "Which river is the longest in the world?",
+        text: "Longest river in the world?",
         image: "assets/images/geography.png",
         choices: ["Nile", "Amazon", "Yangtze"],
         answer: "Nile",
