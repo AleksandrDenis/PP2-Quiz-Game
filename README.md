@@ -7,6 +7,24 @@ It showcases various programming skills and methods that I acquired during the c
 Main languages used HTML, CSS, and JavaScript.
 
 ## About Website
+The quiz is designed to test general knowledge in various topics.
+
+Quiz consists of 21 questions from the following categories:
+* Arts
+* Music
+* History
+* Sports
+* Literature
+* Geography
+* Science
+  
+* Each question is randomly selected from the categories above.
+* Each question has a time limit of 15 seconds.
+* If you don’t answer within the allotted time, the question is marked as incorrect.
+* After all, 21 questions, you receive your score.
+* The quiz can be reset, and you can improve your score.
+
+           
 
 
 ### Deployed website can be found here - [Quiz Game]()
