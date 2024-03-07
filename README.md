@@ -62,6 +62,14 @@ Quiz consists of 21 questions from the following categories:
 
 # UX
 ## User Stories
+* User
+  * As a user, I want to play an online quiz to test my general knowledge in variety of topics.
+  * As a user, I want see my progress.
+  * As a user, I want track my score.
+  * As a user, I want see my final result.
+  * As a user, I want emprove my score.
+* Owner Goal
+  * As an Owner, I wont provide a challenging quiz to entertain online users.
 
 # Design
 ### Structure
