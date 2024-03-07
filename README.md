@@ -148,9 +148,9 @@ Screen Size | Device
 ## Code
 * [Mmdn](https://developer.mozilla.org/en-US/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis to  understand the code being implement.
 *  Shuffle the questions array using Fisher-Yates algorithm was used from  [Programming-algorithms.net](https://www.programming-algorithms.net/article/43676/Fisher-Yates-shuffle)
-*  All code was written by the developer.
+*  Rest of the  code was written by the developer.
 ## Content
-* All rest content was written by the developer.
+* All content was written by the developer.
 ## Media
 * Images where disign by developer usig [Microsoft Designer](https://designer.microsoft.com/)
 
