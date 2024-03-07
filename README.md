@@ -95,6 +95,39 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
 # Testing
 ## Testing User Stories
 ## Responsive Web Design Testing
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to test the responsiveness of the website on various screen sizes and devices:
+  
+Screen Size | Device  
+--- | --- 
+  1920x1200 | Desktop
+  1920x1080 | Desktop
+  1680x1050 | Desktop
+  1600x900  | Desktop
+  1440x900 | Desktop
+  1366x768 | Notebook
+  1024x800 | Notebook
+  1024x600 | Notebook
+  1366x1024 | Apple iPad Pro
+768x1024 | Amazon Kindle Fire
+768x1024 | Asus Eee 1000
+600x960 | Nexus 7
+1024x768 | Nexus 9
+800x12 | Samsung Galaxy Tab 10
+320x480 | Apple iPhone 3/4/4s
+320x568 | Apple iPhone 5/5s
+375x667 | Apple iPhone 6/6s/7
+414x736 | Apple iPhone 6s Plus / 7 Plus
+360x640 | Samsung Galaxy S5/S6/S7
+360x640 | Sony Xperia Z2/Z3
+411x731 | Google Pixel
+384x640 | Nexus 4
+411x731 | Nexus 5
+411x731 | Nexus 6
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to test responsiveness in different screen sizes during the development process.
+
+  [Back To Top](#the-bitter-end)
+
 ## Manual Testing
 ## Validator Testing
 
