@@ -79,6 +79,13 @@ Quiz consists of 21 questions from the following categories:
 ### Images
 
 # Deployment
+More information can be found here [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+   1. In GitHub repository, navigate to the settings tab.
+   2. From side menu select pages tab.
+   3. Once there select source branch:main, select folder/(root).
+   4. Click save, the page provided the link to the completed website.     
+* The live link can be found here  [The Bitter End](https://aleksandrdenis.github.io/PP1-The-Bitter-End/index.html)
 
 # Features
 
