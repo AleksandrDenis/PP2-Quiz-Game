@@ -134,6 +134,15 @@ Screen Size | Device
 # Bugs
 
 # Languages and Programs
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+   * Used for structure.
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+   * Used for styling.
+*  [Vs Code and Codespaces](https://en.wikipedia.org/wiki/Visual_Studio_Code)
+  * Used as code editor.
+* [MS Word](https://en.wikipedia.org/wiki/Microsoft_Word)
+  * Used to write content and detect grammatical errors in a text.
+
 
 # Credits
 ## Code
