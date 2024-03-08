@@ -93,6 +93,7 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
 
 # Features
 ## Home Page
+![Home Page](/assets/readme-images/home-page.jpeg)
 * The home page serves as the entry point for users.
 * Displays a welcome message "Its Quize Time"
 * Includes buttons for gameplay and rules:
@@ -104,6 +105,7 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
       * When clicked, it takes the user to the rules page.
       * The rules page explains how the game works, scoring, and any other relevant information.
 ## Quiz Questions Page:
+![Quiz Questions](/assets/readme-images/quiz-page.jpeg)
 * This page displays the quiz questions one by one.
 * Each question has multiple-choice answers.
 * Users select an answer and proceed to the next question.
@@ -118,11 +120,13 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
 * Move to the next question.
 * Repeats until all questions are answered.
 ## End of Quiz
+![End Quiz](/assets/readme-images/end-quiz-page.jpeg)
 * Once all questions are answered:
   * Ask user to input name    
   * Display the final score.
   * Show a personal congratulatory message to user.
 ## Rules Page:
+![Rules page](/assets/readme-images/rules-page.jpeg)
 * Explain the game rules:
   * How many questions are there?
   * Scoring system.
@@ -130,6 +134,13 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
   * Penalties for wrong answers and if time runs out.
 * Includes a button to Star quize.
 ## Finished Product
+
+Page | Descktop | Mobile 
+--- | --- | --- 
+Home | ![Home Page](/assets/readme-images/home-page.jpeg) | ![Home Page mobile](/assets/readme-images/home-mob.jpeg)
+Quiz | ![Quiz Page](/assets/readme-images/quiz-page.jpeg) | ![Home Page](/assets/readme-images/quiz-page-mob.jpeg)
+End Quzi | ![End Quiz](/assets/readme-images/end-quiz-page.jpeg) |  ![End Quiz mobile](/assets/readme-images/end-quiz-mob.jpeg)
+Rules |  ![Rules Page](/assets/readme-images/rules-page.jpeg) | ![Rules Page mobile](/assets/readme-images/rules-page-mob.jpeg)
 ## Fetures Possible To Implement
 
 # Testing
