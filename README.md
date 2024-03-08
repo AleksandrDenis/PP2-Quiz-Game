@@ -168,6 +168,13 @@ Screen Size | Device
 
 ## Manual Testing
 ## Validator Testing
+* HTML
+   * No errors were returned when passing the official [W3C](https://validator.w3.org/) validator.
+* CSS
+   * No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator.
+* JS
+  * No errors but warnings were returned when passing through the the [JSHint](https://jshint.com/) Validator.  
+       
 
 # Bugs
 
