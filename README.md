@@ -73,6 +73,8 @@ Quiz consists of 21 questions from the following categories:
 
 # Design
 ### Structure
+
+The website’s structure is intuitive, facilitating a natural user flow.
 ### Wireframes
 ### Color Scheme
 ### Typography
@@ -88,7 +90,43 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
 * The live link can be found here  [The Bitter End](https://aleksandrdenis.github.io/PP1-The-Bitter-End/index.html)
 
 # Features
-
+## Home Page
+* The home page serves as the entry point for users.
+* Displays a welcome message "Its Quize Time"
+* Includes buttons for gameplay and rules:
+  * Buttons
+    * “Let’s Play” Button:
+      * When clicked, it starts the quiz game.
+      * Redirects the user to the quiz questions page.
+    * “Rules” Button:
+      * When clicked, it takes the user to the rules page.
+      * The rules page explains how the game works, scoring, and any other relevant information.
+## Quiz Questions Page:
+* This page displays the quiz questions one by one.
+* Each question has multiple-choice answers.
+* Users select an answer and proceed to the next question.
+* Keep track of the user’s score.
+* Timer bar each qustion has time limit user can visualy track progreess.
+## Question Flow:
+* Show the current question.
+* Displays answer options.
+  * When the user selects an answer:
+    * Check if it’s correct.
+* Update the score accordingly.
+* Move to the next question.
+* Repeats until all questions are answered.
+## End of Quiz
+* Once all questions are answered:
+  * Ask user to input name    
+  * Display the final score.
+  * Show a personal congratulatory message to user.
+## Rules Page:
+* Explain the game rules:
+  * How many questions are there?
+  * Scoring system.
+  * Time limit.
+  * Penalties for wrong answers and if time runs out.
+* Includes a button to Star quize.
 ## Finished Product
 ## Fetures Possible To Implement
 
