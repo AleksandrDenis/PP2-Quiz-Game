@@ -24,7 +24,7 @@ Quiz consists of 21 questions from the following categories:
 * After all, 21 questions, you receive your score.
 * The quiz can be reset, and you can improve your score.
 
-           
+ ![responsive image](/assets/readme-images/responsive-main.png)          
 
 
 ### Deployed website can be found here - [Quiz Game]()
@@ -73,6 +73,7 @@ Quiz consists of 21 questions from the following categories:
 
 # Design
 ### Structure
+![site map](/assets/readme-images/site-map.png)
 
 The website’s structure is intuitive, facilitating a natural user flow.
 ### Wireframes
