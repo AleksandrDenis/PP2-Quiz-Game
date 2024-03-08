@@ -5,6 +5,7 @@ This website is the second project in the Code Institute course.
 It showcases various programming skills and methods that I acquired during the course. 
 
 Main languages used HTML, CSS, and JavaScript.
+![responsive image](/assets/readme-images/responsive-main.png)    
 
 ## About Website
 The quiz is designed to test general knowledge in various topics.
@@ -24,10 +25,10 @@ Quiz consists of 21 questions from the following categories:
 * After all, 21 questions, you receive your score.
 * The quiz can be reset, and you can improve your score.
 
- ![responsive image](/assets/readme-images/responsive-main.png)          
+       
 
 
-### Deployed website can be found here - [Quiz Game]()
+### Deployed website can be found here - [Quiz Game](https://aleksandrdenis.github.io/PP2-Quiz-Game/)
 
 
 
