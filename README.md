@@ -1,110 +1,160 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quiz Game
+## Overview
+This website is the second project in the Code Institute course.
 
-Welcome USER_NAME,
+It showcases various programming skills and methods that I acquired during the course. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Main languages used HTML, CSS, and JavaScript.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## About Website
+The quiz is designed to test general knowledge in various topics.
 
-## Gitpod Reminders
+Quiz consists of 21 questions from the following categories:
+* Arts
+* Music
+* History
+* Sports
+* Literature
+* Geography
+* Science
+  
+* Each question is randomly selected from the categories above.
+* Each question has a time limit of 15 seconds.
+* If you don’t answer within the allotted time, the question is marked as incorrect.
+* After all, 21 questions, you receive your score.
+* The quiz can be reset, and you can improve your score.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+           
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+### Deployed website can be found here - [Quiz Game]()
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+# Index
+1. [UX](#ux)
+   1. [User Stories](#user-stories)
+   2. [Design](#design)
+      1. [Structure](#structure)
+      2. [Wireframes](#wireframes)
+      3. [Color Scheme](#color-scheme)
+      4. [Typography](#typography)
+      5. [Images](#images)
+3. [Deployment](#deployment)
+4. [Features](#features)
+   1. [Finished Product](#finished-product)
+   2. [Features Possible To Implement](#features-possible-to-implement)
+6. [Testing](#testing)
+   1. [Testing User Stories](#testing-user-stories)
+   2. [Responsive Web Design](#responsive-web-design-testing)
+   3. [Manual Testing](#manual-testing)
+   4. [Validator Testing](#validator-testing)
+   5. [Bugs](#bugs)
+8. [Languages and Programs](#languages-and-programs)
+9. [Learning Outcomes](#learning-outcomes)
+10. [Credits](#credits)
+    1. [Code](#code)
+    2. [Content](#content)
+    3. [Media](#media)
+11. [Acknowledgements](#acknowledgements)
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+# UX
+## User Stories
+* User
+  * As a user, I want to play an online quiz to test my general knowledge in variety of topics.
+  * As a user, I want see my progress.
+  * As a user, I want track my score.
+  * As a user, I want see my final result.
+  * As a user, I want emprove my score.
+* Owner Goal
+  * As an Owner, I wont provide a challenging quiz to entertain online users.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Design
+### Structure
+### Wireframes
+### Color Scheme
+### Typography
+### Images
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Deployment
+More information can be found here [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+   1. In GitHub repository, navigate to the settings tab.
+   2. From side menu select pages tab.
+   3. Once there select source branch:main, select folder/(root).
+   4. Click save, the page provided the link to the completed website.     
+* The live link can be found here  [The Bitter End](https://aleksandrdenis.github.io/PP1-The-Bitter-End/index.html)
 
-------
+# Features
 
-## Release History
+## Finished Product
+## Fetures Possible To Implement
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Testing
+## Testing User Stories
+## Responsive Web Design Testing
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to test the responsiveness of the website on various screen sizes and devices:
+  
+Screen Size | Device  
+--- | --- 
+  1920x1200 | Desktop
+  1920x1080 | Desktop
+  1680x1050 | Desktop
+  1600x900  | Desktop
+  1440x900 | Desktop
+  1366x768 | Notebook
+  1024x800 | Notebook
+  1024x600 | Notebook
+  1366x1024 | Apple iPad Pro
+768x1024 | Amazon Kindle Fire
+768x1024 | Asus Eee 1000
+600x960 | Nexus 7
+1024x768 | Nexus 9
+800x12 | Samsung Galaxy Tab 10
+320x480 | Apple iPhone 3/4/4s
+320x568 | Apple iPhone 5/5s
+375x667 | Apple iPhone 6/6s/7
+414x736 | Apple iPhone 6s Plus / 7 Plus
+360x640 | Samsung Galaxy S5/S6/S7
+360x640 | Sony Xperia Z2/Z3
+411x731 | Google Pixel
+384x640 | Nexus 4
+411x731 | Nexus 5
+411x731 | Nexus 6
 
-**September 20 2023:** Update Python version to 3.9.17.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to test responsiveness in different screen sizes during the development process.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  [Back To Top](#the-bitter-end)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Manual Testing
+## Validator Testing
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+# Bugs
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+# Languages and Programs
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+   * Used for structure.
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+   * Used for styling.
+*  [Vs Code and Codespaces](https://en.wikipedia.org/wiki/Visual_Studio_Code)
+  * Used as code editor.
+* [MS Word](https://en.wikipedia.org/wiki/Microsoft_Word)
+  * Used to write content and detect grammatical errors in a text.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# Credits
+## Code
+* [Mmdn](https://developer.mozilla.org/en-US/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis to  understand the code being implement.
+*  Shuffle the questions array using Fisher-Yates algorithm was used from  [Programming-algorithms.net](https://www.programming-algorithms.net/article/43676/Fisher-Yates-shuffle)
+*  Rest of the  code was written by the developer.
+## Content
+* All content was written by the developer.
+## Media
+* Images where disign by developer usig [Microsoft Designer](https://designer.microsoft.com/)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# Acknowledgements
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+[Back To Top](#quiz-game)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
