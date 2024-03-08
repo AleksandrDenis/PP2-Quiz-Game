@@ -280,11 +280,11 @@ function endGame() {
     message.style.fontSize = "2rem";
     message.display = "block";
     if (correct === questions.length) {
-       message.textContent = "Congratulations! You are a genius!";
+       message.textContent = `Congratulations ${enterName()}! You are a genius!`;
     } else if (correct > wrong){
-        message.textContent = "Good job! You are smart!";
+        message.textContent = `Good job ${enterName()}! You are smart!`;
     } else {
-       message.textContent = "You can do better!";
+       message.textContent = `${enterName()} You can do better!`;
     }
     quizArea.appendChild(message);
     
@@ -298,6 +298,18 @@ function endGame() {
     quizArea.appendChild(playAgain);
 
 }
+/* Function to promt players to enter their name
+    * Get the player's name
+    * Check if the name is  empty display message
+    */
+    function enterName() {
+        let playerName = prompt("Enter your name");
+        if (playerName === null || playerName === "") {
+            playerName = "Anonymous";
+        }
+        return playerName;
+}
+
 
 // Event listeners for answer choices
 choiceA.addEventListener("click", function () {
