@@ -81,6 +81,9 @@ The website’s structure is intuitive, facilitating a natural user flow.
 ### Color Scheme
 The primary background color, RGB(241, 241, 239), exudes a light and understated elegance, providing a tranquil and soothing ambiance ideal for backgrounds.
 
+Linear-gradient(to right, rgba(0, 238, 255, 0), rgb(0, 162, 255)) where added to quize page. This creates a visual effect where the light blue color gradually appears from the left, becoming fully opaque towards the right. 
+I used it to add a subtle design element to page.
+
 Conversely, the text color RGB(70, 68, 68) offers a stark contrast with its dark, subdued tones, ensuring optimal legibility against the lighter backdrop.
 ### Typography
 The ‘Courier New’, Courier, monospace font is a monospaced typeface favored in web design for its classic typewriter aesthetic, which harmonizes with the quiz interface to enhance the overall design
