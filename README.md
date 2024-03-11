@@ -89,10 +89,12 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
    2. From side menu select pages tab.
    3. Once there select source branch:main, select folder/(root).
    4. Click save, the page provided the link to the completed website.     
-* The live link can be found here  [The Bitter End](https://aleksandrdenis.github.io/PP1-The-Bitter-End/index.html)
+* The live link can be found here  [Quiz Game](https://aleksandrdenis.github.io/PP2-Quiz-Game/)
 
 # Features
+**All features have been meticulously included, enhancing the user experience and delivering exceptional value to user**
 ## Home Page
+![Home Page](/assets/readme-images/home-page.jpeg)
 * The home page serves as the entry point for users.
 * Displays a welcome message "Its Quize Time"
 * Includes buttons for gameplay and rules:
@@ -104,6 +106,7 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
       * When clicked, it takes the user to the rules page.
       * The rules page explains how the game works, scoring, and any other relevant information.
 ## Quiz Questions Page:
+![Quiz Questions](/assets/readme-images/quiz-page.jpeg)
 * This page displays the quiz questions one by one.
 * Each question has multiple-choice answers.
 * Users select an answer and proceed to the next question.
@@ -118,11 +121,13 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
 * Move to the next question.
 * Repeats until all questions are answered.
 ## End of Quiz
+![End Quiz](/assets/readme-images/end-quiz-page.jpeg)
 * Once all questions are answered:
   * Ask user to input name    
   * Display the final score.
   * Show a personal congratulatory message to user.
 ## Rules Page:
+![Rules page](/assets/readme-images/rules-page.jpeg)
 * Explain the game rules:
   * How many questions are there?
   * Scoring system.
@@ -130,10 +135,30 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
   * Penalties for wrong answers and if time runs out.
 * Includes a button to Star quize.
 ## Finished Product
+
+Page | Descktop | Mobile 
+--- | --- | --- 
+Home | ![Home Page](/assets/readme-images/home-page.jpeg) | ![Home Page mobile](/assets/readme-images/home-mob.jpeg)
+Quiz | ![Quiz Page](/assets/readme-images/quiz-page.jpeg) | ![Home Page](/assets/readme-images/quiz-page-mob.jpeg)
+End Quzi | ![End Quiz](/assets/readme-images/end-quiz-page.jpeg) |  ![End Quiz mobile](/assets/readme-images/end-quiz-mob.jpeg)
+Rules |  ![Rules Page](/assets/readme-images/rules-page.jpeg) | ![Rules Page mobile](/assets/readme-images/rules-page-mob.jpeg)
 ## Fetures Possible To Implement
+* Possible features to enhance the quiz experience include:
+  * Implementing a high-score leaderboard
+  * Allowing users to test their knowledge in specific categories beyond general knowledge.
 
 # Testing
 ## Testing User Stories
+ * As a user, I want to play an online quiz to test my general knowledge in variety of topics.
+   * Questions are displayed, and users can submit answers.  
+  * As a user, I want see my progress.
+    * Progress indicators  are visible during the quiz.
+  * As a user, I want track my score.
+    * Scoring mechanism works accurately.    
+  * As a user, I want see my final result.
+    * Final score is displayed at the end of the quiz with congratulatory message.         
+  * As a user, I want emprove my score.
+    * User can retake quizzes to improve their scores.
 ## Responsive Web Design Testing
 * [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to test the responsiveness of the website on various screen sizes and devices:
   
@@ -165,10 +190,53 @@ Screen Size | Device
 411x731 | Nexus 6
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to test responsiveness in different screen sizes during the development process.
+## Manual Testing 
+### Homepage and Links:
+* I verifyed that the homepage loads successfully.
+* I checked buttons to access different sections of the website "Lets Play" and "Rules" redirect user to corect page.
+### Rules:
+* I verifyed that the rules page loads successfully.
+* I verifyed all content displayed as entended.
+* I verifed that "Lets Play" button redirects user to quiz.
+###  Start Quiz Functionalit:
+* I Clicked on "Lets Play" and its start quiz.
+* I confirmed that the quiz begins and questions are displayed.
+* I answered all questions to confirm they function correctly.
+* I checked timer works correctly.
+### Question Display and Interaction:
+* I checked that all images represent categories correctly.
+* I verifyed that questions are presented clearly.
+* I tested that users can select answers.
+### Score Tracking and Progress:
+* I checkede score is updated as users answer questions.
+* I confirmed that progress indicator are accurate.
+### Result and End Quize:
+* I checked that promt messages works ass atended.
+* I verifyed that users’ scores are recorded and displeyd to user.
+* I veryfwd users can view their score and persolesed  feedback message displayed.
+* I veryfed that "Lets Play" button displayed and redirects user to home page.
+### Cross-Browser Compatibility Testing:
+ * Edge 
+     * Layout and responsiveness: No critical issues were identified.
+     * Functionality and performance: No critical issues were identified.
+     * Accessibility and usability: No critical issues were identified.
+     * Visual appearance and design: No critical issues were identified.
+        
+* Firefox
+     * Layout and responsiveness: No critical issues were identified.
+     * Functionality and performance: No critical issues were identified.
+     * Accessibility and usability: No critical issues were identified.
+     * Visual appearance and design: No critical issues were identified.
+       
+* Chrome 
+     * Layout and responsiveness: No critical issues were identified.
+     * Functionality and performance: No critical issues were identified.
+     * Accessibility and usability: No critical issues were identified.
+     * Visual appearance and design: No critical issues were identified.
 
-  [Back To Top](#the-bitter-end)
 
-## Manual Testing
+  [Back To Top](#quiz-game)
+
 ## Validator Testing
 * HTML
    * No errors were returned when passing the official [W3C](https://validator.w3.org/) validator.
