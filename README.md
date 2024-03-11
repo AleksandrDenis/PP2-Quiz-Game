@@ -265,6 +265,8 @@ Screen Size | Device
        
 
 # Bugs
+When using Math.random() method to shuffle question array answers where shuffled to wich led to correct answere marked as incorrect.
+To Fix it i used Fisher-Yates algorithm on array.
 
 # Languages and Programs
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
