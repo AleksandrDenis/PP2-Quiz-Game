@@ -240,7 +240,14 @@ Screen Size | Device
 ## Validator Testing
 * HTML
    * No errors were returned when passing the official [W3C](https://validator.w3.org/) validator.
-   ![Home Page](assets/readme-images/html-checker-main.png)
+ 
+   
+![Home Page](assets/readme-images/html-checker-main.png) 
+
+![Game page ](assets/readme-images/html-checker-game.png) 
+
+![Rules Page](assets/readme-images/html-checker-rules.png)
+    
 * CSS
    * No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator.
    <p>
@@ -252,7 +259,9 @@ Screen Size | Device
 </p>
             
 * JS
-  * No errors but warnings were returned when passing through the the [JSHint](https://jshint.com/) Validator.  
+  * No errors. Warnings regarding use of "const" and "let" which is an ES6 feature,  were returned when passing through the the [JSHint](https://jshint.com/) Validator.
+    
+    ![Jshint](assets/readme-images/jshint.png)
        
 
 # Bugs
