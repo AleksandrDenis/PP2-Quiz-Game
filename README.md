@@ -79,8 +79,13 @@ Quiz consists of 21 questions from the following categories:
 The website’s structure is intuitive, facilitating a natural user flow.
 ### Wireframes
 ### Color Scheme
+The primary background color, RGB(241, 241, 239), exudes a light and understated elegance, providing a tranquil and soothing ambiance ideal for backgrounds.
+
+Conversely, the text color RGB(70, 68, 68) offers a stark contrast with its dark, subdued tones, ensuring optimal legibility against the lighter backdrop.
 ### Typography
+The ‘Courier New’, Courier, monospace font is a monospaced typeface favored in web design for its classic typewriter aesthetic, which harmonizes with the quiz interface to enhance the overall design
 ### Images
+Illustrations accompanying the quiz questions were designed to be both fun and appealing, serving as visual aids that correspond to the category of each question. 
 
 # Deployment
 More information can be found here [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
