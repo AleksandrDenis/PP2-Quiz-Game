@@ -273,6 +273,8 @@ To Fix it i used Fisher-Yates algorithm on array.
    * Used for structure.
 * [CSS](https://en.wikipedia.org/wiki/CSS)
    * Used for styling.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+  * Used for create dynamic and interactive web page.
 *  [Vs Code and Codespaces](https://en.wikipedia.org/wiki/Visual_Studio_Code)
   * Used as code editor.
 * [MS Word](https://en.wikipedia.org/wiki/Microsoft_Word)
