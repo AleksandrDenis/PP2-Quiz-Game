@@ -68,7 +68,7 @@ Quiz consists of 21 questions from the following categories:
   * As a user, I want see my progress.
   * As a user, I want track my score.
   * As a user, I want see my final result.
-  * As a user, I want emprove my score.
+  * As a user, I want improve my score.
 * Owner Goal
   * As an Owner, I wont improve a challenging quiz to entertain online users.
 
@@ -218,8 +218,8 @@ Screen Size | Device
 ### Score Tracking and Progress:
 * I checked score is updated as users answer questions.
 * I confirmed that progress indicator are accurate.
-### Result and End Quize:
-* I checked that prompt messages works assintended.
+### Result and End Quiz:
+* I checked that prompt messages works as intended.
 * I verified that users’ scores are recorded and displayed to user.
 * I verified users can view their score and personalized feedback message displayed.
 * I verified that "Lets Play" button displayed and redirects user to home page.
