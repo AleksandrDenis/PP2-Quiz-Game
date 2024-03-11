@@ -143,6 +143,9 @@ Quiz | ![Quiz Page](/assets/readme-images/quiz-page.jpeg) | ![Home Page](/assets
 End Quzi | ![End Quiz](/assets/readme-images/end-quiz-page.jpeg) |  ![End Quiz mobile](/assets/readme-images/end-quiz-mob.jpeg)
 Rules |  ![Rules Page](/assets/readme-images/rules-page.jpeg) | ![Rules Page mobile](/assets/readme-images/rules-page-mob.jpeg)
 ## Fetures Possible To Implement
+* Possible features to enhance the quiz experience include:
+  * Implementing a high-score leaderboard
+  * Allowing users to test their knowledge in specific categories beyond general knowledge.
 
 # Testing
 ## Testing User Stories
