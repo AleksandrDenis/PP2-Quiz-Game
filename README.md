@@ -288,6 +288,8 @@ When using Math.random() method to shuffle question array answers where shuffled
 To Fix it i used Fisher-Yates algorithm on array.
 
 # Languages and Programs
+* [Figma](https://en.wikipedia.org/wiki/Figma)
+  * Used to create wireframes
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
    * Used for structure.
 * [CSS](https://en.wikipedia.org/wiki/CSS)
