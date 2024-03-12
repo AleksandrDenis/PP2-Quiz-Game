@@ -309,6 +309,8 @@ To Fix it i used Fisher-Yates algorithm on array.
 * Images where design by developer using [Microsoft Designer](https://designer.microsoft.com/)
 
 # Acknowledgements
+* Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
+* My tutor, Marcel, for his invaluable feedback and guidance.
 
 [Back To Top](#quiz-game)
 
