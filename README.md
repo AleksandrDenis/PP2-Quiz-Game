@@ -270,6 +270,15 @@ Screen Size | Device
   * No errors. Warnings regarding use of "const" and "let" which is an ES6 feature,  were returned when passing through the the [JSHint](https://jshint.com/) Validator.
     
     ![Jshint](assets/readme-images/jshint.png)
+
+ * Accessibility
+ * I confirmed that website preforms highly, running through  lighthouse devtools. Colors and fonts being used in throughout the website are easy to read and accessible.
+
+   ![Lighthouse test](assets/readme-images/lighthouse-main.png)
+   
+   ![Lighthouse test](assets/readme-images/lighthouse.png)
+
+   ![Lighthouse test](assets/readme-images/lighthouse-rules.png)
        
 
 # Bugs
