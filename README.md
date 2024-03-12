@@ -78,6 +78,8 @@ Quiz consists of 21 questions from the following categories:
 
 The website’s structure is intuitive, facilitating a natural user flow.
 ### Wireframes
+![Wireframe](/assets/readme-images/quiz-wireframe.png)
+
 ### Color Scheme
 The primary background color, RGB(241, 241, 239), exudes a light and understated elegance, providing a tranquil and soothing ambiance ideal for backgrounds.
 
