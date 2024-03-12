@@ -68,9 +68,9 @@ Quiz consists of 21 questions from the following categories:
   * As a user, I want see my progress.
   * As a user, I want track my score.
   * As a user, I want see my final result.
-  * As a user, I want emprove my score.
+  * As a user, I want improve my score.
 * Owner Goal
-  * As an Owner, I wont provide a challenging quiz to entertain online users.
+  * As an Owner, I wont improve a challenging quiz to entertain online users.
 
 # Design
 ### Structure
@@ -79,8 +79,16 @@ Quiz consists of 21 questions from the following categories:
 The website’s structure is intuitive, facilitating a natural user flow.
 ### Wireframes
 ### Color Scheme
+The primary background color, RGB(241, 241, 239), exudes a light and understated elegance, providing a tranquil and soothing ambiance ideal for backgrounds.
+
+Linear-gradient(to right, rgba(0, 238, 255, 0), rgb(0, 162, 255)) where added to quize page. This creates a visual effect where the light blue color gradually appears from the left, becoming fully opaque towards the right. 
+I used it to add a subtle design element to page.
+
+Conversely, the text color RGB(70, 68, 68) offers a stark contrast with its dark, subdued tones, ensuring optimal legibility against the lighter backdrop.
 ### Typography
+The ‘Courier New’, Courier, monospace font is a monospaced typeface favoured in web design for its classic typewriter aesthetic, which harmonizes with the quiz interface to enhance the overall design
 ### Images
+Illustrations accompanying the quiz questions were designed to be both fun and appealing, serving as visual aids that correspond to the category of each question. 
 
 # Deployment
 More information can be found here [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
@@ -96,7 +104,7 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
 ## Home Page
 ![Home Page](/assets/readme-images/home-page.jpeg)
 * The home page serves as the entry point for users.
-* Displays a welcome message "Its Quize Time"
+* Displays a welcome message "Its Quiz Time"
 * Includes buttons for gameplay and rules:
   * Buttons
     * “Let’s Play” Button:
@@ -111,7 +119,7 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
 * Each question has multiple-choice answers.
 * Users select an answer and proceed to the next question.
 * Keep track of the user’s score.
-* Timer bar each qustion has time limit user can visualy track progreess.
+* Timer bar each question has time limit user can visually track progress.
 ## Question Flow:
 * Show the current question.
 * Displays answer options.
@@ -133,16 +141,16 @@ More information can be found here [GitHub Docs](https://docs.github.com/en/page
   * Scoring system.
   * Time limit.
   * Penalties for wrong answers and if time runs out.
-* Includes a button to Star quize.
+* Includes a button to Star quiz.
 ## Finished Product
 
-Page | Descktop | Mobile 
+Page | Desktop | Mobile 
 --- | --- | --- 
 Home | ![Home Page](/assets/readme-images/home-page.jpeg) | ![Home Page mobile](/assets/readme-images/home-mob.jpeg)
 Quiz | ![Quiz Page](/assets/readme-images/quiz-page.jpeg) | ![Home Page](/assets/readme-images/quiz-page-mob.jpeg)
-End Quzi | ![End Quiz](/assets/readme-images/end-quiz-page.jpeg) |  ![End Quiz mobile](/assets/readme-images/end-quiz-mob.jpeg)
+End Quiz | ![End Quiz](/assets/readme-images/end-quiz-page.jpeg) |  ![End Quiz mobile](/assets/readme-images/end-quiz-mob.jpeg)
 Rules |  ![Rules Page](/assets/readme-images/rules-page.jpeg) | ![Rules Page mobile](/assets/readme-images/rules-page-mob.jpeg)
-## Fetures Possible To Implement
+## Features Possible To Implement
 * Possible features to enhance the quiz experience include:
   * Implementing a high-score leaderboard
   * Allowing users to test their knowledge in specific categories beyond general knowledge.
@@ -157,7 +165,7 @@ Rules |  ![Rules Page](/assets/readme-images/rules-page.jpeg) | ![Rules Page mob
     * Scoring mechanism works accurately.    
   * As a user, I want see my final result.
     * Final score is displayed at the end of the quiz with congratulatory message.         
-  * As a user, I want emprove my score.
+  * As a user, I want improve my score.
     * User can retake quizzes to improve their scores.
 ## Responsive Web Design Testing
 * [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to test the responsiveness of the website on various screen sizes and devices:
@@ -192,29 +200,29 @@ Screen Size | Device
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to test responsiveness in different screen sizes during the development process.
 ## Manual Testing 
 ### Homepage and Links:
-* I verifyed that the homepage loads successfully.
-* I checked buttons to access different sections of the website "Lets Play" and "Rules" redirect user to corect page.
+* I verified that the homepage loads successfully.
+* I checked buttons to access different sections of the website "Lets Play" and "Rules" redirect user to correct page.
 ### Rules:
-* I verifyed that the rules page loads successfully.
-* I verifyed all content displayed as entended.
-* I verifed that "Lets Play" button redirects user to quiz.
-###  Start Quiz Functionalit:
+* I verified that the rules page loads successfully.
+* I verified all content displayed as intended.
+* I verified that "Lets Play" button redirects user to quiz.
+###  Start Quiz Functionality:
 * I Clicked on "Lets Play" and its start quiz.
 * I confirmed that the quiz begins and questions are displayed.
 * I answered all questions to confirm they function correctly.
 * I checked timer works correctly.
 ### Question Display and Interaction:
 * I checked that all images represent categories correctly.
-* I verifyed that questions are presented clearly.
+* I verified that questions are presented clearly.
 * I tested that users can select answers.
 ### Score Tracking and Progress:
-* I checkede score is updated as users answer questions.
+* I checked score is updated as users answer questions.
 * I confirmed that progress indicator are accurate.
-### Result and End Quize:
-* I checked that promt messages works ass atended.
-* I verifyed that users’ scores are recorded and displeyd to user.
-* I veryfwd users can view their score and persolesed  feedback message displayed.
-* I veryfed that "Lets Play" button displayed and redirects user to home page.
+### Result and End Quiz:
+* I checked that prompt messages works as intended.
+* I verified that users’ scores are recorded and displayed to user.
+* I verified users can view their score and personalized feedback message displayed.
+* I verified that "Lets Play" button displayed and redirects user to home page.
 ### Cross-Browser Compatibility Testing:
  * Edge 
      * Layout and responsiveness: No critical issues were identified.
@@ -240,7 +248,14 @@ Screen Size | Device
 ## Validator Testing
 * HTML
    * No errors were returned when passing the official [W3C](https://validator.w3.org/) validator.
-   ![Home Page](assets/readme-images/html-checker-main.png)
+ 
+   
+![Home Page](assets/readme-images/html-checker-main.png) 
+
+![Game page ](assets/readme-images/html-checker-game.png) 
+
+![Rules Page](assets/readme-images/html-checker-rules.png)
+    
 * CSS
    * No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator.
    <p>
@@ -252,16 +267,31 @@ Screen Size | Device
 </p>
             
 * JS
-  * No errors but warnings were returned when passing through the the [JSHint](https://jshint.com/) Validator.  
+  * No errors. Warnings regarding use of "const" and "let" which is an ES6 feature,  were returned when passing through the the [JSHint](https://jshint.com/) Validator.
+    
+    ![Jshint](assets/readme-images/jshint.png)
+
+ * Accessibility
+ * I confirmed that website preforms highly, running through  lighthouse devtools. Colors and fonts being used in throughout the website are easy to read and accessible.
+
+   ![Lighthouse test](assets/readme-images/lighthouse-main.png)
+   
+   ![Lighthouse test](assets/readme-images/lighthouse.png)
+
+   ![Lighthouse test](assets/readme-images/lighthouse-rules.png)
        
 
 # Bugs
+When using Math.random() method to shuffle question array answers where shuffled to witch led to correct answers marked as incorrect.
+To Fix it i used Fisher-Yates algorithm on array.
 
 # Languages and Programs
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
    * Used for structure.
 * [CSS](https://en.wikipedia.org/wiki/CSS)
    * Used for styling.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+  * Used for create dynamic and interactive web page.
 *  [Vs Code and Codespaces](https://en.wikipedia.org/wiki/Visual_Studio_Code)
   * Used as code editor.
 * [MS Word](https://en.wikipedia.org/wiki/Microsoft_Word)
@@ -276,7 +306,7 @@ Screen Size | Device
 ## Content
 * All content was written by the developer.
 ## Media
-* Images where disign by developer usig [Microsoft Designer](https://designer.microsoft.com/)
+* Images where design by developer using [Microsoft Designer](https://designer.microsoft.com/)
 
 # Acknowledgements
 
