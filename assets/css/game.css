@@ -3,11 +3,6 @@ body {
     background: linear-gradient(to right, rgba(0, 238, 255, 0), rgb(0, 162, 255));
 }
 
-/* Headings */
-.headings {
-    text-align: center;
-}
-
 .general {
     padding-bottom: 1rem;
     text-transform: uppercase;
@@ -16,9 +11,8 @@ body {
     letter-spacing: 0.2rem;
 }
 
-/* Hide message for smalldevices */
-#hide {
-    display: none;
+#question {
+    text-align: center;
 }
 
 /* Quiz area */
