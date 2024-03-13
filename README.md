@@ -78,6 +78,8 @@ Quiz consists of 21 questions from the following categories:
 
 The website’s structure is intuitive, facilitating a natural user flow.
 ### Wireframes
+![Wireframe](/assets/readme-images/quiz-wireframe.png)
+
 ### Color Scheme
 The primary background color, RGB(241, 241, 239), exudes a light and understated elegance, providing a tranquil and soothing ambiance ideal for backgrounds.
 
@@ -286,6 +288,8 @@ When using Math.random() method to shuffle question array answers where shuffled
 To Fix it i used Fisher-Yates algorithm on array.
 
 # Languages and Programs
+* [Figma](https://en.wikipedia.org/wiki/Figma)
+  * Used to create wireframes
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
    * Used for structure.
 * [CSS](https://en.wikipedia.org/wiki/CSS)
@@ -309,6 +313,8 @@ To Fix it i used Fisher-Yates algorithm on array.
 * Images where design by developer using [Microsoft Designer](https://designer.microsoft.com/)
 
 # Acknowledgements
+* Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
+* My tutor, Marcel, for his invaluable feedback and guidance.
 
 [Back To Top](#quiz-game)
 
