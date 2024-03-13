@@ -285,7 +285,7 @@ function endGame() {
     let playAgain = document.createElement("button");
     playAgain.textContent = "Play Again";
     playAgain.classList.add("btn");
-    playAgain.style.margin = "0 8rem";
+    playAgain.style.margin = "0 12rem";
     playAgain.addEventListener("click", function () {
     window.location.href = "index.html";
     });
