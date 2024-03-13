@@ -154,7 +154,7 @@ const questions = [
         choices: ["Usain Bolt", "Carl Lewis", "Michael Johnson"],
         answer: "Usain Bolt",
     },
-]; 
+];
 
 //  Shuffle the questions array using Fisher-Yates algorithm
 for (let i = questions.length - 1; i > 0; i--) {
@@ -162,7 +162,7 @@ for (let i = questions.length - 1; i > 0; i--) {
     let temp = questions[i];
     questions[i] = questions[j];
     questions[j] = temp;
-};
+}
 
 /** Function to display questions
  * Get current question from questions array
@@ -179,9 +179,7 @@ function displayQuestion() {
     choiceC.querySelector("p").textContent = q.choices[2];
     timerWidth = 100;
     timerId = setInterval(decrementTimer, 100);
-
 }
-
 
 /** Function to decrement timer
  * Reduce the timer width by the timer speed
@@ -199,7 +197,6 @@ function decrementTimer() {
         markWrong();
         nextQuestion();
     }
-
 }
 
 /** Function to check answers
@@ -218,14 +215,13 @@ function checkAnswer(choice) {
     }
     clearInterval(timerId);
     nextQuestion();
-
 }
 
 /** Function to mark correct answer
  * Increase the correct score
  * Update the correct element
  */
-function markCorrect() {   
+function markCorrect() {
     correct++;
     document.getElementById("correct").textContent = correct;
 }
@@ -234,7 +230,7 @@ function markCorrect() {
  * Increase the wrong score
  * Update the wrong element
  */
-function markWrong() {    
+function markWrong() {
     wrong++;
     document.getElementById("wrong").textContent = wrong;
 }
@@ -255,7 +251,6 @@ function nextQuestion() {
     } else {
         endGame();
     }
-
 }
 
 /** Function to end game
@@ -269,7 +264,7 @@ function endGame() {
     timerProgress.style.display = "none";
     question.style.display = "none";
     answersChoices.style.display = "none";
-   scoreArea.style.display = "block";
+    scoreArea.style.display = "block";
     scoreArea.style.textAlign = "center";
     scoreArea.style.margin = "2rem";
     scoreArea.style.fontSize = "2rem";
@@ -280,36 +275,33 @@ function endGame() {
     message.style.fontSize = "2rem";
     message.display = "block";
     if (correct === questions.length) {
-       message.textContent = `Congratulations ${enterName()}! You are a genius!`;
-    } else if (correct > wrong){
+        message.textContent = `Congratulations ${enterName()}! You are a genius!`;
+    } else if (correct > wrong) {
         message.textContent = `Good job ${enterName()}! You are smart!`;
     } else {
-       message.textContent = `${enterName()} You can do better!`;
+        message.textContent = `${enterName()} You can do better!`;
     }
     quizArea.appendChild(message);
-    
     let playAgain = document.createElement("button");
     playAgain.textContent = "Play Again";
     playAgain.classList.add("btn");
     playAgain.style.margin = "0 8rem";
     playAgain.addEventListener("click", function () {
-        window.location.href = "index.html";
+    window.location.href = "index.html";
     });
     quizArea.appendChild(playAgain);
-
 }
 /* Function to promt players to enter their name
     * Get the player's name
     * Check if the name is  empty display message
     */
-    function enterName() {
-        let playerName = prompt("Enter your name");
-        if (playerName === null || playerName === "") {
-            playerName = "Anonymous";
-        }
-        return playerName;
+function enterName() {
+    let playerName = prompt("Enter your name");
+    if (playerName === null || playerName === "") {
+        playerName = "Anonymous";
+    }
+    return playerName;
 }
-
 
 // Event listeners for answer choices
 choiceA.addEventListener("click", function () {
