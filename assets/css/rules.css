@@ -47,6 +47,7 @@ img {
     margin-bottom: 1rem;
     padding-left: 2rem;
 }
+
 ul li {
     margin: 0.2rem;
     padding: 0.2rem;
@@ -58,27 +59,28 @@ ul li {
 }
 
 /*Meedia queries for larger screens */
-@media (min-width: 768px) {
+@media (min-width: 1222px) {
     body {
         font-size: 2rem;
         background-image: url(../images/game-bg.png);
         background-size: 100% 100%;
     }
+
     img {
         width: 7rem;
         height: 7rem;
     }
+
     .rules {
         padding: 4rem;
         font-size: 1.5rem;
     }
+
     h2.heading {
         font-size: 3rem;
-        
-      
     }
+
     a.btn {
         background-color: #fff;
-      
     }
 }

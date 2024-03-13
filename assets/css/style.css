@@ -4,6 +4,7 @@
     font-size: 62.5%;
     background-color: rgba(194, 224,233, 0322);
 }
+
 /* Remove the default proprties */
 * {
     box-sizing: border-box;
@@ -34,6 +35,7 @@ body {
     white-space: nowrap;
     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end;
 }
+
 @keyframes typing {
     from {
         width: 0;
@@ -72,12 +74,10 @@ body {
 .btn:hover {
     background-color: rgb(135, 207, 235, 0.63);
     cursor: pointer;
-   
 }
 
 /* Change the color of the button when clicked */
 .btn:active {
-  
     transform: translateY(0.2rem);
     box-shadow: none;
 }
@@ -85,7 +85,6 @@ body {
 /* Change the color of the button when focused */
 .btn:focus {
     outline: none;
-    
 }
 
 /* Center menu  */
