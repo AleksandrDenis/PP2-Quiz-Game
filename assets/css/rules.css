@@ -8,6 +8,13 @@ body {
     font-size: 1.5rem;
 }
 
+.general {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 0.2rem;
+}
 /* Center section on page */
 .rules {
     display: flex;
@@ -59,27 +66,24 @@ ul li {
 }
 
 /*Meedia queries for larger screens */
-@media (min-width: 1222px) {
+@media (min-width: 1400px) {
     body {
         font-size: 2rem;
         background-image: url(../images/game-bg.png);
         background-size: 100% 100%;
     }
-
     img {
         width: 7rem;
         height: 7rem;
     }
-
     .rules {
-        padding: 4rem;
+        padding: 5rem;
         font-size: 1.5rem;
+        margin-right: 4rem;
     }
-
     h2.heading {
         font-size: 3rem;
     }
-
     a.btn {
         background-color: #fff;
     }
