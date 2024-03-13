@@ -269,7 +269,8 @@ Screen Size | Device
 </p>
             
 * JS
-  * No errors. Warnings regarding use of "const" and "let" which is an ES6 feature,  were returned when passing through the the [JSHint](https://jshint.com/) Validator.
+  * No errors. One warnings regarding unnecessary semicolon, were returned when passing through the the [JSHint](https://jshint.com/) Validator.
+  Warning fixed by deleting semicolon.
     
     ![Jshint](assets/readme-images/jshint.png)
 
