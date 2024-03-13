@@ -58,6 +58,7 @@ img {
 ul li {
     margin: 0.2rem;
     padding: 0.2rem;
+    text-align: center;
 }
 
 /* Styles for the text */
